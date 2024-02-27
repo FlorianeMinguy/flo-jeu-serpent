@@ -1,7 +1,7 @@
 ﻿window.onload = function () {
   // Fonction principale : lance le jeu et gère son évolution
   const canvasWidth = 900;
-  const canvasHeight = 600;
+  const canvasHeight = 550;
   const blockSize = 30;
   const widthInBlocks = canvasWidth / blockSize;
   const heightInBlocks = canvasHeight / blockSize;
@@ -160,7 +160,7 @@
     canvas.width = canvasWidth;
     canvas.height = canvasHeight;
     canvas.style.border = "30px solid grey";
-    canvas.style.margin = "50px auto";
+    canvas.style.margin = "30px auto";
     canvas.style.display = "block";
     canvas.style.backgroundColor = "#ddd";
     document.body.appendChild(canvas);
