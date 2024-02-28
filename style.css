@@ -7,3 +7,22 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
 }
+
+.alert {
+  display: none;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* MEDIAQUERIES */
+/* -------------------------------------------------------------------------------------- */
+/* Smartphone et tablette */
+@media (max-width: 991px) {
+  p {
+    display: none;
+  }
+  .alert {
+    display: block;
+    background-color: rgb(255, 160, 0);
+    line-height: 1.5em;
+  }
+}
